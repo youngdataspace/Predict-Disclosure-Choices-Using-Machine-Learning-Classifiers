@@ -4,8 +4,8 @@ I build supervised machine learning models to predict whether IPO firms choose t
 
 This notebook includes the following topics:
 - Build prediction models using Random Forest, Logistic Regression, Naive Bayes, K-Nearest Neighbors, and Support Vector Machine
-- Tune hyperparameters using the Grid Search method 
 - Perform the K-Fold Cross-Validation to select the best performing model based on precision and recall values
+- Tune hyperparameters using the Grid Search method whenever possible
 - Evaluate the best model using precision, recall, and AUC
 
 This notebook explains how I build the prediction models that I use in the first chapter of my UC Berkeley Haas dissertation. Nonetheless, it can be generalized and used to solve many other classification problems. By the way, a part of the first chapter is co-authored with my UC Berkeley PhD advisors and is published in the Critical Finance Review (a top 4 finance journal). Be sure to check the publication <a href = "https://cfr.pub/forthcoming/papers/eventov2021jobs.pdf">here</a>.
