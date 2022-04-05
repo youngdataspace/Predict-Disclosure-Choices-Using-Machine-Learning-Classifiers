@@ -4,7 +4,6 @@ I build supervised machine learning models to predict whether IPO firms choose t
 
 This notebook includes the following topics:
 - Build prediction models using Random Forest, Logistic Regression, Naive Bayes, K-Nearest Neighbors, and Support Vector Machine
-- Perform the K-Fold Cross-Validation
 - Tune hyperparameters using the Grid Search method whenever possible
 - Evaluate the best model using precision, recall, and AUC
 
