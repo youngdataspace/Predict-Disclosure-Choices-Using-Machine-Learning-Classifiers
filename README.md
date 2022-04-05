@@ -1,8 +1,9 @@
+# Currently working on this
 # Outline
 I build supervised machine learning models to predict whether IPO firms choose to disclose less before going public.
 
 This notebook includes the following topics:
-- Build Random Forest, Logistic Regression, Naive Bayes, K-Nearest Neighbors, and Support Vector Machine models
+- Build prediction models using Random Forest, Logistic Regression, Naive Bayes, K-Nearest Neighbors, and Support Vector Machine
 - Tune hyperparameters using the Grid Search method 
 - Perform the K-Fold Cross-Validation to select the best performing model based on precision and recall values
 - Evaluate the best model using precision, recall, and AUC
@@ -12,8 +13,6 @@ This notebook explains how I build the prediction models that I use in the first
 Enjoy reading this post!
 
 # Background and Problem Statement
-In 2012, the JOBS Act allowed IPO firms to reduce their financial disclosures before going public. In the first chapter of my dissertation, I examine the economic consequences of this Act and find that firms that choose to disclose less (hereafter reduced-disclosure firms) become more overpriced. To explain the channel, I examine whether the reduction in disclosure is the driver of the overpricing or whether certain types of IPOs that are known to be overpriced went public after the JOBS Act. The evidence suggests the latter. 
+In 2012, the JOBS Act allowed IPO firms to reduce their financial disclosures before going public. In the first chapter of my dissertation, I examine the economic consequences of this Act and find that firms that choose to disclose less (hereafter "reduced-disclosure firms") become more overpriced. To explain the channel, I examine whether the reduction in disclosure is the driver of overpricing or whether certain types of IPOs that are known to be overpriced went public after the JOBS Act. The evidence shown in the rest of the chapter suggests the latter. 
 
-The analysis in this notebook has a specific purpose: examine whether firm characteristics can explain firm's choice by building 
-
-In order to further support the finding that reduced-disclosure firms are systematically different firms, I examine whether firm characteristics can be used to classify such firms. As shown below, the Random Forest model built using several firm characteristics does a good job of predicting reduced-disclosure firms. This evidence suggests that reduced disclosure firms and other firms are systematically different. As explained in my dissertation,  and thus the disclosure choice per se isn't the driver of my findings.
+The analysis in this notebook has a specific purpose: examine whether firms' choice can be predicted using their characteristics. If so, this analysis will further support the evidence in the rest of the chapter that reduced-disclosure firms are systematically different firms (I show in the paper that the firm characteristic differences are consistent with characteristics that are known to associate with overpricing).
