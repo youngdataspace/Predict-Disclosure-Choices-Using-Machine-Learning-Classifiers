@@ -1,10 +1,9 @@
-# Currently working on this
 # Introduction and Outline
 I build supervised machine learning models to predict whether IPO firms choose to disclose less before going public.
 
 The outline of this post is summarized as follows:
 - Build prediction models using Naive Bayes, Random Forest, XGBoosting, AdaBoosting, Gradient Boosting, Logistic Regression, K-Nearest Neighbors, and Support Vector Machine 
-- Tune hyperparameters using the Grid Search method whenever possible
+- Tune hyperparameters using the Grid Search method
 - Evaluate the best model using precision, recall, and AUC
 
 I explain how I build the prediction models that I use in the first chapter of my UC Berkeley Haas dissertation. Nonetheless, it can be generalized and used to solve many other classification problems. By the way, a part of the first chapter is co-authored with my UC Berkeley PhD advisors and is published in the Critical Finance Review (a top 4 finance journal). Be sure to check the publication <a href = "https://cfr.pub/forthcoming/papers/eventov2021jobs.pdf">here</a>.
