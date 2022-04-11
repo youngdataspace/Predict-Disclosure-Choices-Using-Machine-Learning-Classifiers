@@ -8,6 +8,8 @@ The outline of this post is summarized as follows:
 
 As a working example, I will explain how we can predict whether an IPO firm chooses to reduce its pre-IPO disclosures using its firm characteristics. I use these predictions in the first chapter of my UC Berkeley Haas dissertation (<a href = "https://sites.google.com/view/young-yoon-brief-abstracts/home">link</a>). Nonetheless, it can be generalized and used to solve many other classification and prediction problems. By the way, a part of the first chapter is co-authored with my UC Berkeley PhD advisors and is published in the Critical Finance Review (a top 4 finance journal). Be sure to check the publication <a href = "https://cfr.pub/forthcoming/papers/eventov2021jobs.pdf">here</a>.
 
+If you have any comments or suggestions, email me at y.s.yoon@berkeley.edu. Enjoy reading the rest of the post!
+
 # Background and Problem Statement
 In 2012, the JOBS Act allowed IPO firms to reduce their financial disclosures before going public. In the first chapter of my dissertation, I examine the economic consequences of this Act and find that firms that choose to disclose less (hereafter "reduced-disclosure firms") become more overpriced. To explain the channel, I examine whether the reduction in disclosure requirement is the driver of overpricing or whether certain types of IPOs that are known to be overpriced went public after the JOBS Act. 
 
