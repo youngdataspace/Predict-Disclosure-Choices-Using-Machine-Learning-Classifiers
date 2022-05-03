@@ -1,3 +1,5 @@
+<img src = "https://github.com/youngdataspace/Predict-Disclosure-Choices-Using-Machine-Learning-Classifiers/blob/main/Intro.gif?raw=true">
+
 # Outline and Introduction
 In this post, I explain how we can build and evaluate supervised machine learning classifiers in Python.
 
